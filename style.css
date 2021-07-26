@@ -5,6 +5,7 @@ body{
 .first-half{
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
+background-position: left;
 }
 .link-button a{
     text-decoration: none;
@@ -20,7 +21,7 @@ h1{
 .Orange-Color{
     color: orange;
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -36,6 +37,33 @@ text-align: justify;
 .Second-Half{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right ;
+    background-position: right ;   
+}
+.Expriences{
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 20px;
     
+}
+.exrience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#part-1{
+    border-image:linear-gradient(red, rgb(238, 171, 160));
+    border-image-slice: 1;
+    border-left: 7px solid;
+    border-radius: 10px;
+}
+#exprience-part-2{
+  border-image: linear-gradient(blue,cyan);
+  border-image-slice: 1;
+  border-left: 7px solid;
+  border-radius: 10px;
+}
+.last-1{
+    padding-left: 5%;
 }

@@ -1,11 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 .first-half{
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
-background-position: left;
+
 }
 .link-button a{
     text-decoration: none;
@@ -16,7 +17,7 @@ background-position: left;
     color: white;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .Orange-Color{
     color: orange;
@@ -63,7 +64,4 @@ text-align: justify;
   border-image-slice: 1;
   border-left: 7px solid;
   border-radius: 10px;
-}
-.last-1{
-    padding-left: 5%;
 }

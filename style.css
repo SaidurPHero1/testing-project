@@ -6,7 +6,7 @@ body{
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
 }
-.hire-button a{
+.link-button a{
     text-decoration: none;
     font-weight: 700;
     background-image: linear-gradient(blue, cyan);
@@ -22,11 +22,20 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
 width: 50%;
 padding-left: 5%;
+padding-right: 6%;
+text-align: justify;
 }
 .half-width img{
     width: 80%;
+}
+.Second-Half{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+    
 }
